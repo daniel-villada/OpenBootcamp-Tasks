@@ -5,12 +5,21 @@ package com.ejerFunciones;
 public class Main {
     public static void main(String[] args)
     {
-        int resultado = 0;
-        resultado = suma(2, 5, 3);
+        suma(2, 5, 3);
+    }
+
+    //Primera parte del ejercicio: Funcion que sume 3 numeros.
+    public static void suma(int a, int b, int c){
+        int resultado;
+        resultado = a + b + c;
         System.out.println("El resultado de la suma es: " + resultado);
     }
-    public static int suma(int a, int b, int c){
-        return a + b + c;
+}
+
+class Coche{
+    int numeroPuertas = 4;
+    int puertasCoche(int numeroPuertas,int nPuertas){
+        return numeroPuertas + nPuertas;
     }
 }
 
