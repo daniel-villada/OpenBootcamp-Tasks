@@ -7,7 +7,7 @@ class Vehiculo:
 
 class Coche(Vehiculo):
     velocidad = 0
-    cilindrada = False
+    cilindrada = 0
 
 
 bmw = Coche()
@@ -15,6 +15,6 @@ bmw.color = 'Black'
 bmw.ruedas = 4
 bmw.puertas = 4
 bmw.velocidad = 150
-bmw.cilindrada = True
+bmw.cilindrada = 1200
 
-print(f'Color del coche: {bmw.color}\nNo. Ruedas: {bmw.ruedas}\n No. Puertas: {bmw.puertas}\nVelocidad: {bmw.velocidad}\nCilindrada: {bmw.cilindrada}')
+print(f'Color del coche: {bmw.color}\nNo. Ruedas: {bmw.ruedas}\nNo. Puertas: {bmw.puertas}\nVelocidad: {bmw.velocidad}\nCilindrada: {bmw.cilindrada}')
