@@ -3,5 +3,10 @@
 
 file = open('file.txt', 'w')
 file.write("Creando archivo txt desde python\n")
-file.write("que genial...\n")
+file.close()
+
+file = open('file.txt', 'r+')
+file.readline()
+file.write('Que genial es esto.\n')
+print(file.read())
 file.close()
